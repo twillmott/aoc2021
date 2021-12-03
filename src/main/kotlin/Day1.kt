@@ -9,7 +9,7 @@ object Day1 {
     }
 
     fun puzzle2(): String {
-        var inputs = getInputs("day1puz2.txt");
+        val inputs = getInputs("day1puz2.txt");
         var increaseCount = 0
         inputs.forEachIndexed {index, i ->
             if (index > 0  && index < inputs.size - 2) {
